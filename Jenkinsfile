@@ -10,7 +10,7 @@ node {
     stage('Build image') {
         /* To builds the dockerimage */
         //update your ECR registry URI
-        app = docker.build("*******.dkr.ecr.us-east-1.amazonaws.com/demoapp")
+        app = docker.build("002096266198.dkr.ecr.us-east-1.amazonaws.com/spinnaker-registry")
     }
 
     stage('Test image') {
